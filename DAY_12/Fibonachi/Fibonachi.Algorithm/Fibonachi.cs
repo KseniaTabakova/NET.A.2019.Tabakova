@@ -17,19 +17,19 @@ namespace Fibonachi
 
         private static IEnumerable<long> DoFibonachi(int length)
         {
-            long bprev = 0;
-            long prev = 1;
+            long current = 0;
+            long previous = 1;
 
             for (int i = 0; i < length; ++i)
-            {
-                yield return bprev;
-
-                var temp = prev;
+            {              
+                var temp = current;
                 checked
                 {
-                    prev += bprev;
+                    current += previous;
                 }
-                bprev = temp;
+                previous = temp;
+                
+                yield return current;
             }
         }
     }
