@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<FileCabinet>
+	<User UserID="1">
+		<FirstName>ggg</FirstName>
+		<LastName>ggg</LastName>
+		<DayOfBirth>00.00.0000</DayOfBirth>
+	</User>
+	<User UserID="2">
+		<FirstName>trte</FirstName>
+		<LastName>erere</LastName>
+		<DayOfBirth>99.99.9999</DayOfBirth>
+	</User>
+</FileCabinet>

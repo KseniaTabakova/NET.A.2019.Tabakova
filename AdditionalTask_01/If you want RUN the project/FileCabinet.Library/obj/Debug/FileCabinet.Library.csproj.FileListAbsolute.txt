@@ -1,0 +1,6 @@
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\obj\Debug\FileCabinet.Library.csproj.CoreCompileInputs.cache
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\bin\Debug\FileCabinet.Library.dll
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\bin\Debug\FileCabinet.Library.pdb
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\obj\Debug\FileCabinet.Library.dll
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\obj\Debug\FileCabinet.Library.pdb
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Library\obj\Debug\FileCabinet.Library.csprojAssemblyReference.cache

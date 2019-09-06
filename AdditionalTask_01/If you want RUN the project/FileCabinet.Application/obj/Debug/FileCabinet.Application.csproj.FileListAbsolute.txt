@@ -1,0 +1,22 @@
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\bin\Debug\FileCabinet.Application.exe.config
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\bin\Debug\FileCabinet.Application.exe
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\bin\Debug\FileCabinet.Application.pdb
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\bin\Debug\FileCabinet.Library.dll
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\bin\Debug\FileCabinet.Library.pdb
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.csprojAssemblyReference.cache
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.g.resources
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.csproj.CoreCompileInputs.cache
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.csproj.CopyComplete
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.exe
+C:\Users\vaio\Source\Repos\FileCabinetApplication\FileCabinet.Application\obj\Debug\FileCabinet.Application.pdb
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\bin\Debug\FileCabinet.Application.exe.config
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\bin\Debug\FileCabinet.Application.exe
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\bin\Debug\FileCabinet.Application.pdb
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\bin\Debug\FileCabinet.Library.dll
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\bin\Debug\FileCabinet.Library.pdb
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.csprojAssemblyReference.cache
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.g.resources
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.csproj.CoreCompileInputs.cache
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.exe
+C:\Users\vaio\Desktop\NET.A.2019.Tabakova.AdditionalTask.01\If you want RUN the project\FileCabinet.Application\obj\Debug\FileCabinet.Application.pdb
