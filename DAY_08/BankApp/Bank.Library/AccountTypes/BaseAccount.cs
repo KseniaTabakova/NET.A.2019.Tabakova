@@ -1,28 +1,45 @@
 ﻿using Bank.Library.Account;
-using Bank.Library.AccountСapability;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Bank.Library.AccountTypes
 {
+    /// <summary>
+    /// Class represents functionality for Base Account type.
+    /// </summary>
     public class BaseAccount : BankAccount
     {
+        /// <summary>
+        /// Parametrized constructor.
+        /// </summary>
+        /// <param name="id">Account given id.</param>
+        /// <param name="person">Account holder.</param>
+        /// <param name="status">Account status.</param>
+        /// <param name="type">Account type.</param>
+        /// <param name="sum">Account first balance.</param>
+        /// <param name="bonus">Account first given bonuses.</param>
         public BaseAccount(int id, AccountHolder person, AccountStatus status, AccountType type, int sum, int bonus) : base( id, person, status, type, sum, bonus)
         {
-           
         }
 
+        /// <summary>
+        /// Calculation of bonuses depending on the type of account.
+        /// </summary>
+        /// <param name="type">Type of account.</param>
+        /// <returns>Bonuses.</returns>
         public override int CalculateBonus(AccountType type = AccountType.Base)
         {
-            return Balance / 10000;
+            return Balance / 50000;
         }
 
-        protected override bool BalanceIsPositive(int value)
+        /// <summary>
+        /// Account balance at which you can withdraw money depending on the type of account.
+        /// </summary>
+        /// <param name="totalAmount">Amount of money witch account have.</param>
+        /// <returns>True if the operation is allowed.</returns>
+        public override bool BalanceIsPositive(int totalAmount)
         {
-            return value >= 0;
+            return totalAmount >= 0;
         }
     }
 }
