@@ -9,8 +9,6 @@ namespace OnlineBookstore.Library
     /// </summary>
     public class Book : IEquatable<Book>, IComparable<Book>, IComparable
     {
-        // протестить String.Equals vs String.Compare vs “==”
-
         private string isbn;
         private string author;
         private string title;
