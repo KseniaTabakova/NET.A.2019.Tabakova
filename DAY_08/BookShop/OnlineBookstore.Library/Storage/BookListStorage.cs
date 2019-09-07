@@ -10,7 +10,7 @@ namespace OnlineBookstore.Library
     public class BookListStorage : AbstractBookStorage
     {
         /// <summary>
-        /// Path to local books collection.
+        /// Path to the binary file in the local PC.
         /// </summary>
         private readonly string basePath = AppDomain.CurrentDomain.BaseDirectory + "books.dat";
 
