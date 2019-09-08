@@ -1,69 +1,99 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BinarySearch.Algorithm
 {
+    /// <summary>
+    /// Class of binary search realization.
+    /// </summary>
     public class Search
     {
-        public static int? BinarySearch<T>(T[] a, T element, IComparer<T> comparer)
+        /// <summary>
+        /// Implements binaty search.
+        /// </summary>
+        /// <typeparam name="T">Type.</typeparam>
+        /// <param name="array">Given array.</param>
+        /// <param name="element">Find element.</param>
+        /// <param name="comparer">Comparer.</param>
+        /// <returns>Index of element.</returns>
+        public static int? BinarySearch<T>(T[] array, T element, IComparer<T> comparer)
         {
-            return BinarySearch(a, element, comparer.Compare);
+            ThrowingNullExceptions(array, "Array can not be null.");
+            ThrowingArgumentExceptions(array, "Array can not be empty.");
+            ThrowingNullExceptions(element, "Element can not be null");
+
+            return BinarySearch(array, element, comparer.Compare);
         }
-      
-        public static int? BinarySearch<T>(T[] a, T element, Comparison<T> comparison)
-        {
-            ThrowingExceptions(a, element, comparison);
 
-            if (a.Length == 0)
-            {
-                return null;
-            }
-
+        /// <summary>
+        /// Implements binaty search.
+        /// </summary>
+        /// <typeparam name="T">Type.</typeparam>
+        /// <param name="array">Given array.</param>
+        /// <param name="element">Find element.</param>
+        /// <param name="comparison">Comparer.</param>
+        /// <returns>Index of element.</returns>
+        private static int? BinarySearch<T>(T[] array, T element, Comparison<T> comparison)
+        {          
             int first = 0;
-            int last = a.Length;
+            int last = array.Length-1;
 
-            while (first < last)
+            while (first <= last)
             {
-                int mid = first + (last - first) / 2;
-
-                if (comparison(element, a[mid]) <= 0)
-                {
-                    last = mid;
-                }
-                else
+                int mid = (last + first) / 2;
+                
+                if (comparison(element, array[mid]) < 0)
                 {
                     first = mid + 1;
                 }
+                else if (comparison(element, array[mid]) > 0)
+                {
+                    last = mid - 1;
+                }
+                else if (comparison(element, array[mid]) == 0)
+                {
+                    return mid;
+                }
             }
-
-            if (comparison(a[last], element) == 0)
-            {
-                return last;
-            }
-            else
-            {
                 return null;
+        }
+
+        /// <summary>
+        /// Throwing null exception in case of unforeseen consequence.
+        /// </summary>
+        /// <param name="array">Array witch can couse an exception.</param>
+        /// <param name="message">Message to be show.</param>
+        private static void ThrowingNullExceptions<T>(T[] array, string message)
+        {
+            if (array == null)
+            {
+                throw new ArgumentNullException(message);
             }
         }
 
-        private static void ThrowingExceptions<T>(T[] a, T element, Comparison<T> comparison)
+        /// <summary>
+        /// Throwing argument exception in case of unforeseen consequence.
+        /// </summary>
+        /// <param name="array">Array witch can couse an exception.</param>
+        /// <param name="message">Message to be show.</param>
+        private static void ThrowingArgumentExceptions<T>(T[] array, string message)
         {
-            if (a == null)
+            if (array.Length == 0)
             {
-                throw new ArgumentNullException($"Input can't be null.");
+                throw new ArgumentException(message);
             }
+        }
 
+        /// <summary>
+        /// Throwing null exception in case of unforeseen consequence.
+        /// </summary>
+        /// <param name="element">Element witch can couse an exception.</param>
+        /// <param name="message">Message to be show.</param>
+        private static void ThrowingNullExceptions<T>(T element, string message)
+        {
             if (element == null)
             {
-                throw new ArgumentNullException($"Number can't be null.");
-            }
-
-            if ((comparison(element, a[0]) < 0) || (comparison(element, a[a.Length - 1]) > 0))
-            {
-                throw new ArgumentException("Element is out of range.");
+                throw new ArgumentNullException(message);
             }
         }
 

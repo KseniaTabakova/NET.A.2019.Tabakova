@@ -1,24 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace OnlineBookstore.Library.Logger
+namespace BookExtensions.Logger
 {
+    /// <summary>
+    /// class contains logic for message log.
+    /// </summary>
     public class Logs
     {
+        /// <summary>
+        /// Path to the message file.
+        /// </summary>
         static private string path;
+
+        /// <summary>
+        /// Directory for message logger file. 
+        /// </summary>
         static private string directory;
+
+        /// <summary>
+        /// Directory pointer.
+        /// </summary>
         static public DirectoryInfo di;
+
+        /// <summary>
+        /// FileInfo pointer.
+        /// </summary>
         static public FileInfo fileInfo;
 
+        /// <summary>
+        /// Constructor.
+        /// </summary>
         public Logs()
         {
             directory = AppDomain.CurrentDomain.BaseDirectory + @"\Log";
-
-            path = directory + @"\logs.log";
+            path = directory + @"\Logs.log";
             di = new DirectoryInfo(directory);
 
             if (!di.Exists)
@@ -32,15 +49,16 @@ namespace OnlineBookstore.Library.Logger
                 {
                     sw.WriteLine("---------Start----------");
                 }
-
             }
-
         }
 
+        /// <summary>
+        /// Fille the logger file with information.
+        /// </summary>
         static public void FileEx()
         {
             DateTime now = DateTime.Now;
-            String newfile = directory + @"\" + now.ToString("yyMMddhhmmss") + ".old";
+            string newfile = directory + @"\" + now.ToString("yyMMddhhmmss") + ".old";
             fileInfo = new FileInfo(path);
 
             if (fileInfo.Length > 100000)
@@ -58,7 +76,6 @@ namespace OnlineBookstore.Library.Logger
                 }
             }
 
-
             var files = Directory.GetFiles(directory, "*.old", SearchOption.AllDirectories);
             if (files.Length > 20)
             {
@@ -69,11 +86,13 @@ namespace OnlineBookstore.Library.Logger
                     fileInfo.Delete();
                     Console.WriteLine(item);
                 }
-
             }
-
         }
 
+        /// <summary>
+        /// Informational message of app events.
+        /// </summary>
+        /// <param name="msg">Message to show.</param>
         public void Info(string msg)
         {
             FileEx();
@@ -82,6 +101,11 @@ namespace OnlineBookstore.Library.Logger
                 sw.WriteLine("{0} [INFO]  {1}", DateTime.Now, msg);
             }
         }
+
+        /// <summary>
+        /// Exception message of app events.
+        /// </summary>
+        /// <param name="msg">Message to show.</param>
         public void Error(string msg)
         {
             FileEx();
@@ -90,6 +114,5 @@ namespace OnlineBookstore.Library.Logger
                 sw.WriteLine("{0} [ERR]  {1}", DateTime.Now, msg);
             }
         }
-
     }
 }

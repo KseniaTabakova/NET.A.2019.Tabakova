@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Clock.Library;
-using System.Threading.Tasks;
+﻿using Clock.Library;
 
 namespace Clock.Application
 {
@@ -12,16 +7,20 @@ namespace Clock.Application
         static void Main(string[] args)
         {
             ContraClock funClock = new ContraClock();
-            ClockUser userOne = new SecondsCounter();
-            ClockUser userTwo = new MinutesCounter();
+            ClockInfo userOne = new SecondsCounter();
+            ClockInfo userTwo = new MinutesCounter();
 
             userOne.Add(funClock);
-            funClock.WhatTimeIs(4000);
+            funClock.LetWait(4000);
+
             userTwo.Add(funClock);
-            funClock.WhatTimeIs(10000);
+            funClock.LetWait(10000);
 
             userOne.Remove(funClock);
-            funClock.WhatTimeIs(2000);
+            funClock.LetWait(2000);
+
+            userOne = null;                                    //pay attention that it does not work :)
+            funClock.LetWait(4000);
         }
     }
 }
