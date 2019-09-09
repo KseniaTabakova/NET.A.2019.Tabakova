@@ -1,7 +1,7 @@
 -- A query displays a list of customers in a table consisting of two columns, 
 -- customerID and companyName. Table rows must be sorted by customer code.
 
-create database customers;
+CREATE database customers;
 
 use customers;
 
