@@ -1,5 +1,5 @@
-- Create a query that lists all countries from the dbo.Customers.Country column. 
-- The list should be sorted in alphabetical order and should contain only unique values.
+-- Create a query that lists all countries from the dbo.Customers.Country column. 
+-- The list should be sorted in alphabetical order and should contain only unique values.
 
 use customers;
 
