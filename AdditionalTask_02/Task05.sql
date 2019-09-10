@@ -1,16 +1,15 @@
--- Request displays a list of identifiers of the companies for which orders were delivered (dbo.Orders.RequiredDate) in September 1996. 
+-- Request displays a list of identifiers of the companies for which orders were delivered in September 1996. 
 -- The list should be sorted in alphabetical order.
 
-CREATE TABLE orders(
-    requiredData DATE
-    custID INT);
+CREATE TABLE productA(
+    custID INT,
+    deliveryDate DATE);
 
-ALTER TABLE orders ADD FOREIGN KEY (custID) references information(customerID);
+ALTER TABLE productA ADD FOREIGN KEY (custID) references customers (customerID);
 
+INSERT INTO productA(custID, deliveryDate)
+    VALUES (1, '1996-10-15'), (5, '1996-09-15'), (3, '2001-07-18'), (9, '2005-09-01'), (2, '1996-09-30'), (16, '2013-12-23');
 
-INSERT INTO orders(custID,requiredData)
-    VALUES (13,'2010-09-02'), (42,'1996-09-22'), (73,'1996-12-17'), (92,'1996-09-17'), (300,'2015-03-01'), (50,'2000-11-14');
-
-SELECT customerID FROM information
-    WHERE customerID IN (SELECT custID FROM orders WHERE MONTH (requiredData) = 09)
+SELECT customerID FROM customers
+    WHERE customerID IN (SELECT custID FROM productA WHERE MONTH(deliveryDate)=09)
     ORDER BY customerID;
