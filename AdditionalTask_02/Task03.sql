@@ -1,17 +1,13 @@
 -- Create a query that lists all countries from the dbo.Customers.Country column. 
 -- The list should be sorted in alphabetical order and should contain only unique values.
 
-use customers;
-
-DROP TABLE information;
-
-CREATE TABLE information (
-    customerID INT NOT NULL,
+CREATE TABLE address(
+    custID INT,
     country VARCHAR(20),
-    PRIMARY KEY(customerID));
+    city VARCHAR(20));
 
-INSERT INTO information (customerID, country)
-    VALUES (1, 'Belarus'), (2, 'Italy'), (32, 'USA'), (52, 'Belarus'), (3, 'Angola'), (99, 'USA');
+INSERT INTO address(custID, country, city)
+    VALUES (1, 'Spain', 'Madrid'), (5, 'Sweden', 'Skokholm'), (3, 'France', 'Paris'), (9, 'USA','Chikago'), (2, 'Japan', 'Tokyo'), (16, 'Japan', 'Tokyo');
 
-SELECT DISTINCT country FROM information
+SELECT DISTINCT country FROM address
     ORDER BY country;
