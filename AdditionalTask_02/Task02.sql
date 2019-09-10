@@ -4,10 +4,10 @@
 
 CREATE TABLE employees (
     employeeID INT,
-    hireDate DATE);
+    employmentData DATE);
 
-INSERT INTO employees (employeeID, hireDate)
-    VALUES (12, '2019-05-10'), (7, '2016-07-30'), (89, '2019-08-30');
+INSERT INTO employees (employeeID, employmentData) 
+    VALUES (1, '2019-05-23'), (2, '2013-09-04'), (3, '2019-05-25'), (4, '1998-12-12'), (5, '2003-10-19'), (6, '2019-07-30');
 
 SELECT * FROM employees
-    WHERE hireDate = (SELECT MAX(hireDate) FROM employees);
+    WHERE employmentData = (SELECT MAX(employmentData) FROM employees);
