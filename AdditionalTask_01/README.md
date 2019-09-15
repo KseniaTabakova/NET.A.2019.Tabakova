@@ -16,3 +16,5 @@
 
 
 С помощью коллекции ***Dictionary<string, Action***> введенная пользователем команда вызывает соответствующий ей метод через объект делегата.
+
+![Console](https://github.com/KseniaTabakova/Pictures/blob/master/4.png)
