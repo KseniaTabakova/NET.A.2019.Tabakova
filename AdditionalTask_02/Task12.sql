@@ -1,6 +1,6 @@
 -- Request displays total freight amount of orders for customer companies whose freight cost is greater than or the average cost of 
 -- all orders, as well as the date of shipment of the order should be in the second half of July 1996. 
-The resulting table should have columns CustomerID and FreightSum, the rows of which should be sorted by the sum of the freight orders.
+-- The resulting table should have columns CustomerID and FreightSum, the rows of which should be sorted by the sum of the freight orders.
 
 
 ALTER TABLE productA ADD unloadDate DATE;

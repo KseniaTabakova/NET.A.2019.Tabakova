@@ -2,7 +2,7 @@
 -- The total cost is calculated as the sum of the cost of the details of the order, taking into account the discount. 
 -- The resulting table should have columns CustomerID, ShipCountry and OrderPrice, rows should be sorted by order value in reverse.
 
-SELECT customerID, shipCountry, (SELECT ROUND(SUM(unitPrice * quantity * (1 - discount)), 2) FROM totalOrders
+SELECT customerID, shipCountry, (SELECT ROUND(SUM(unitPrice * quantity * (1 - discount)), 2) FROM totalOrders) AS orderPrice
      GROUP BY orderID FROM totalOrders
      WHERE shipCountry IN ('Brazil', 'Chile', 'Colombia', 'Equador', 'Argentina', 'Bolivia', 'Paraguay', 'Peru', 'Suriname', 'Uruguay', 'Venezuela')
      AND orderData >= '1997-09-01'
