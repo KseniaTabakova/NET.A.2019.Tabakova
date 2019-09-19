@@ -13,4 +13,4 @@ https://habrahabr.ru/company/it-grad/blog/341486/
 результирующим является XML-документ вида (можно использовать любую XML
 технологию без ограничений).
 
-- 
+![test](https://github.com/KseniaTabakova/Pictures/blob/master/6.png) 
