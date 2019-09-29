@@ -1,8 +1,21 @@
-# Описание:
-Для выполнения заданий SQL, была создана БД: ***CompanyInformation*** и следующие таблицы с данными.
+# Задания:
+- Выясните кардинальность для связей между таблицами PK Table (таблица, которая содержит первичный ключ сущности) и FK Table (таблица, содержащая внешний ключ сущности). Заполните колонки Cardinality в таблице.
 
-Таблицы связаны между собой внешним ключом.
- 
-![Таблица](https://github.com/KseniaTabakova/Pictures/blob/master/SQLPictures/1.png)
-![Таблица2](https://github.com/KseniaTabakova/Pictures/blob/master/SQLPictures/2.png)
-![Таблица3](https://github.com/KseniaTabakova/Pictures/blob/master/SQLPictures/3.png)
+| PK Table      | Cardinality PK Table | FK Table	Cardinality | FK Table      | Relationship |
+| ------------- | -------------------- | -------------------- | ------------- | ------------ |
+| shippers    	 |   Zero-or-One        |orders    	           | One-or-Many   | One-to-Many  | 
+| employees     |   Zero-or-One        |orders                | One-or-Many   | One-to-Many  | 
+| employees     |   Zero-or-One        |employees             | One-or-Many   | One-to-Many  | 
+| employees     |   -                  |territories           | -             | Many-to-Many | 
+| customers     |   Zero-or-One        |orders                | One-or-Many   | One-to-Many  |  
+| customers     |   -                  |customerdemographics  | -             | Many-to-Many | 
+| orders        |   One-and-only-One   |orderdetails          | One-or-Many   | One-to-Many  | 
+| products      |   One-and-only-One   |orderdetails          | One-or-Many   | One-to-Many  |  
+| suppliers     |   Zero-or-One        |products              | One-or-Many   | One-to-Many  | 
+| categories    |   Zero-or-One        |products              | One-or-Many   | One-to-Many  | 
+| region        |   One-and-only-One   |territories           | One-or-Many   | One-to-Many  | 
+				
+
+
+
+		
