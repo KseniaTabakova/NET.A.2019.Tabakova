@@ -32,6 +32,10 @@
 |Get product name where its quantity more than 5| GET | Products?$select=ProductName&filter=Order_Details?filter =Order/Quantity gh 5|
 |Get orders from United Package company| GET |/Orders?$expand= Shipper&$filter = Shipper/CompanyName eq 'United Package'|
 
+- Найдите базовый класс, от которого унаследован NorthwindModel.NorthwindEntities. *System.Data.Services.Client.DataServiceContext*
+В какой сборке находится базовый класс? *Microsoft.Data.Services.Client* 
+По какому пути лежит эта сборка? *C:\Program Files (x86)\Microsoft WCF Data Services\5.6.3\bin\.NETFramework\Microsoft.Data.Services.Client.dll*
+Какая версия у сборки, в которой находится базовый класс? *5.6.3.0*
 
 
 
