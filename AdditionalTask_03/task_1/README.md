@@ -37,7 +37,14 @@
 - По какому пути лежит эта сборка? *C:\Program Files (x86)\Microsoft WCF Data Services\5.6.3\bin\.NETFramework\Microsoft.Data.Services.Client.dll*
 - Какая версия у сборки, в которой находится базовый класс? *5.0.0.0*
 
-
+|Breakpoint |	Thread ID	|Thread Managed ID	|Thread Name  |
+| -----------|------------------ | ----------- | -------------------- | 
+|#1.1	|22088 |	1|	Main Thread|
+|#1.2	|21308|  2	|Worker Thread|
+|#1.3	|22088	|1|	Main Thread|
+|#2.1	|5188	|1|Main Thread|
+|#2.2	|15492	|2	|Worker Thread|
+|#2.3	|15492	|2|	Worker Thread|
 
 
 		
