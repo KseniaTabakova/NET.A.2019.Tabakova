@@ -34,7 +34,7 @@
 
 - Найдите базовый класс, от которого унаследован NorthwindModel.NorthwindEntities. *System.Data.Services.Client.DataServiceContext*
 - В какой сборке находится базовый класс? *Microsoft.Data.Services.Client* 
-- По какому пути лежит эта сборка? *C:\Program Files (x86)\Microsoft WCF Data Services\5.6.3\bin\.NETFramework\Microsoft.Data.Services.Client.dll*
+- По какому пути лежит эта сборка? *C:\Program Files (x86)\Microsoft WCF Data Services\5.0.0\bin\.NETFramework\Microsoft.Data.Services.Client.dll*
 - Какая версия у сборки, в которой находится базовый класс? *5.0.0.0*
 
 |Breakpoint |	Thread ID	|Thread Managed ID	|Thread Name  |
