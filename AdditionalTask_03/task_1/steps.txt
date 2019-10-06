@@ -1,0 +1,7 @@
+1. Получить метаданные сервиса:
+https://services.odata.org/V2/Northwind/Northwind.svc/$metadata
+
+2. Генерация прокси-классов
+"%windir%\Microsoft.NET\Framework\v3.5\DataSvcUtil.exe" /dataservicecollection /version:2.0 /in:northwind-data-service.edmx /out:NorthwindDataService3.cs
+
+3. Добавить WCF Data Services 5.0.0 для демонстрации запроса к службе данных Northwind
