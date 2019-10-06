@@ -1,0 +1,12 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\DAL.ADO.NET.dll.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\DAL.ADO.NET.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\DAL.ADO.NET.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\EntityFramework.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\EntityFramework.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\obj\Debug\DAL.ADO.NET.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\obj\Debug\DAL.ADO.NET.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.ADO.NET\obj\Debug\DAL.ADO.NET.pdb

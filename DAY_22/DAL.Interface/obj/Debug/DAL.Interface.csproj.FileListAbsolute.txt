@@ -1,0 +1,4 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Interface\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Interface\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Interface\obj\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Interface\obj\Debug\DAL.Interface.pdb

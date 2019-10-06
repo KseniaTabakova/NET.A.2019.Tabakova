@@ -1,0 +1,10 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\EntityFramework.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\EntityFramework.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\obj\Debug\ORM.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\obj\Debug\ORM.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\obj\Debug\ORM.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\ORM.dll.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\ORM.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\ORM\bin\Debug\ORM.pdb

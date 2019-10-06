@@ -1,0 +1,10 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\DAL.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\DAL.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\System.ValueTuple.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\bin\Debug\System.ValueTuple.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\obj\Debug\DAL.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,4 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL.Interface\bin\Debug\BLL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL.Interface\bin\Debug\BLL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL.Interface\obj\Debug\BLL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL.Interface\obj\Debug\BLL.Interface.pdb

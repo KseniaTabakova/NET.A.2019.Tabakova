@@ -1,0 +1,9 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\bin\Debug\NLog.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\bin\Debug\Logging.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\bin\Debug\Logging.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\bin\Debug\NLog.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\bin\Debug\NLog.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\obj\Debug\Logging.csprojAssemblyReference.cache
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\obj\Debug\Logging.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\obj\Debug\Logging.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\Logging\obj\Debug\Logging.pdb

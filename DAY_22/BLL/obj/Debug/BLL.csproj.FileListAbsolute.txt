@@ -1,0 +1,15 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\NLog.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\BLL.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\BLL.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\BLL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\Logging.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\NLog.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\BLL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\Logging.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\bin\Debug\NLog.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\obj\Debug\BLL.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,16 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\obj\Debug\DAL.EF.csprojAssemblyReference.cache
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\DAL.EF.dll.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\DAL.EF.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\DAL.EF.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\EntityFramework.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\ORM.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\ORM.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\ORM.dll.config
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\EntityFramework.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\obj\Debug\DAL.EF.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\obj\Debug\DAL.EF.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.EF\obj\Debug\DAL.EF.pdb

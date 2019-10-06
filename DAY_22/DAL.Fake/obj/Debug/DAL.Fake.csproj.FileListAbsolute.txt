@@ -1,0 +1,7 @@
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\bin\Debug\DAL.Fake.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\bin\Debug\DAL.Fake.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\bin\Debug\DAL.Interface.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\bin\Debug\DAL.Interface.pdb
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\obj\Debug\DAL.Fake.csproj.CopyComplete
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\obj\Debug\DAL.Fake.dll
+C:\Users\vaio\Desktop\NET1.S.2019.Rasokha.24\DAL.Fake\obj\Debug\DAL.Fake.pdb
